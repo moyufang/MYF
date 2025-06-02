@@ -11,10 +11,14 @@
             "id": "17f5aef4230d911e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "自动化/模拟触控/模拟触控.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "模拟触控"
             }
           }
         ]
@@ -100,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lobotomy.md",
+                "file": "自动化/模拟触控/模拟触控.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lobotomy"
+              "title": "Backlinks for 模拟触控"
             }
           },
           {
@@ -119,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "信息技术/rust/Rust Note.md",
+                "file": "自动化/模拟触控/模拟触控.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rust Note"
+              "title": "Outgoing links from 模拟触控"
             }
           },
           {
@@ -156,8 +160,19 @@
               "icon": "lucide-list",
               "title": "Outline of Rust Note"
             }
+          },
+          {
+            "id": "f6ea4021c0568c6e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,11 +186,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "17f5aef4230d911e",
   "lastOpenFiles": [
+    "深度学习与神经网络/Dropout使用方法.png",
+    "新建 文本文档.txt",
+    "Untitled.canvas",
     "自动化/文本处理/json_formater.py",
     "自动化/welearn脚本/welearn_helper.png",
     "自动化/welearn脚本/USE.png",
@@ -220,9 +239,6 @@
     "深度学习与神经网络/计算机视觉/yolo使用.md",
     "信息技术/前端",
     "信息技术/hide/计算机组成原理/现代处理器架构/Zen4_Instruction_Latencies_version_1-00.xlsx",
-    "信息技术/hide/计算机组成原理/现代处理器架构/SoftWareOptimizationForZen4.pdf",
-    "信息技术/hide/计算机组成原理/现代处理器架构",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
