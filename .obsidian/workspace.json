@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "791760225e242f26",
+    "type": "split",
+    "children": [
+      {
+        "id": "f845e179c11c4318",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17f5aef4230d911e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d17e87fcd529c0af",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaeb79e5ae362446",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f58ed68d3deafd12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eca76d106fd63ef9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8d8f8d713300feb9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "5241a318ad38e493",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c07ebb3f7bce72a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "65cbaf9fbf135f79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20c5118960d42560",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lobotomy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lobotomy"
+            }
+          },
+          {
+            "id": "59a0b5c91c9441df",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "信息技术/rust/Rust Note.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Rust Note"
+            }
+          },
+          {
+            "id": "660a57c32e03959b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7a54183014c9bd62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "信息技术/rust/Rust Note.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Rust Note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "17f5aef4230d911e",
+  "lastOpenFiles": [
+    "自动化/文本处理/json_formater.py",
+    "自动化/welearn脚本/welearn_helper.png",
+    "自动化/welearn脚本/USE.png",
+    "自动化/welearn脚本/turn_on&off_in_tamper_monkey.png",
+    "自动化/welearn脚本/TamperMonkey.md",
+    "自动化/welearn脚本/chrome_tamper_monkey.png",
+    "自动化/welearn脚本/manage_tamper_monkey.png",
+    "自动化/welearn脚本/chrome_ex_shop.png",
+    "自动化/welearn脚本",
+    "信息技术/数值算法/拟合.md",
+    "数学/数值算法/误差.md",
+    "数学/数值算法/线性方程组的迭代法.md",
+    "数学/数值算法/矩阵.md",
+    "数学/数值算法/插值.md",
+    "数学/数值算法/拟合.md",
+    "数学/数值算法/数值积分.md",
+    "数学/数值算法/切比雪夫多项式的最小最大范数性质.png",
+    "数学/数值算法",
+    "信息技术/可视化/Graphviz/Graphviz配置教程.md",
+    "信息技术/可视化/图布局算法.md",
+    "信息技术/可视化/Graphviz",
+    "信息技术/可视化",
+    "文字材料/非科班  天坑专业成功转行计算机，超详细经验分享！ - 知乎.md",
+    "文字材料/震撼感指数衰减.png",
+    "文字材料/罗振宇分享22个真实故事，开启2023年新的思考（跨年演讲浓缩版）.docx",
+    "文字材料/罗振宇分享22个真实故事，开启2023年新的思考（跨年演讲浓缩版）.md",
+    "文字材料/这场考试我不是满分.md",
+    "文字材料/是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？.md",
+    "文字材料/怎样学数学才能达到省级竞赛一等奖的水平？.png",
+    "文字材料/我一直很好奇，高中数学考试每次145+的人怎么做到的？.png",
+    "文字材料/怎样学数学才能达到省级竞赛一等奖的水平？.md",
+    "文字材料/张高飞论数学专业.md",
+    "文字材料/丁仪那一锤子.md",
+    "文字材料/(69 封私信  5 条消息) 大学计算机系最努力的同学都是如何学习的？ - 知乎.md",
+    "文字材料",
+    "信息技术/数值算法/插值.md",
+    "深度学习与神经网络/Pytorch/PyTorch的基本使用.md",
+    "深度学习与神经网络/Pytorch/torch-cuda.md",
+    "深度学习与神经网络/神经网络与深度学习实践.md",
+    "深度学习与神经网络/神经网络训练方法.md",
+    "深度学习与神经网络/计算机视觉/计算机视觉.md",
+    "深度学习与神经网络/计算机视觉/yolo使用.md",
+    "信息技术/前端",
+    "信息技术/hide/计算机组成原理/现代处理器架构/Zen4_Instruction_Latencies_version_1-00.xlsx",
+    "信息技术/hide/计算机组成原理/现代处理器架构/SoftWareOptimizationForZen4.pdf",
+    "信息技术/hide/计算机组成原理/现代处理器架构",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

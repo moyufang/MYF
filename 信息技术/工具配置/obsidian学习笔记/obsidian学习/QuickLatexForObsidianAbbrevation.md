@@ -1,0 +1,17 @@
+```
+rm:::\mathrm{};
+bb:::\mathbb{};
+\vma:::\begin{vmatrix}#cursor\end{vmatrix};
+\bma:::\begin{bmatrix}#cursor\end{bmatrix};
+\pma:::\begin{pmatrix}#cursor\end{pmatrix};
+\ali:::\begin{aligned}
+#cursor
+\end{aligned};
+\cs:::\begin{cases}
+#cursor
+\end{cases};
+\gt:::\begin{gather}
+#cursor
+\end{gather};
+\set:::\left\{#cursor\right\};
+```

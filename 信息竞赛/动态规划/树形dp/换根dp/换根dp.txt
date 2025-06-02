@@ -1,0 +1,10 @@
+树的重心：
+P1395 会议
+P1364 医院设置
+P3478 [POI2008]STA-Station
+P2986 [USACO10MAR]Great Cow Gathering G
+P2726 [SHOI2005]树的双中心
+
+其他：
+P3047 [USACO12FEB]Nearby Cows G
+P6419 [COCI 2015]Kamp
