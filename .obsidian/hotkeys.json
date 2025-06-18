@@ -32,5 +32,13 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-git:add-to-gitignore": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
   ]
 }
