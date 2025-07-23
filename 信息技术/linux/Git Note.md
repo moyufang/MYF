@@ -19,6 +19,7 @@ git restore <filename>
 git log --pretty=oneline
 git reflog //git指令序列的简要日志
 git reset <hash> //版本回退
+git reset --soft <hash> //版本回退，但不改变工作区
 git diff <hash> <hash> //分析两个版本的差异
 
 git checkout -- <filename> //用版本库里的文件替换工作区中的文件

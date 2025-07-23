@@ -4,24 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "90ed0bd65aafd1f1",
+        "id": "d7792b11b184a45d",
         "type": "tabs",
         "children": [
           {
-            "id": "6a321689a136c041",
+            "id": "9a734cd6071bfe65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zignore/lab8/README.md",
+                "file": "嵌入式开发/学习路线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "学习路线"
+            }
+          },
+          {
+            "id": "eb5f95a47dfd2f80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式开发/stm32 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stm32 基础"
+            }
+          },
+          {
+            "id": "75a4e41926633e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025年暑假日记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025年暑假日记"
+            }
+          },
+          {
+            "id": "ff16dc73cd574a3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嵌入式开发/stm32 基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stm32 基础"
+            }
+          },
+          {
+            "id": "2becb765fc1b2220",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "嵌入式开发/stm32f1时钟树.png"
+              },
+              "icon": "lucide-image",
+              "title": "stm32f1时钟树"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c07ebb3f7bce72a8",
@@ -191,54 +245,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a321689a136c041",
+  "active": "ff16dc73cd574a3d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "zignore/lab8/README.md",
-    "数学/初等/不等式/降维打击——不等式中的黑魔法/降维打击——不等式中的黑魔法.png",
-    "数学/初等/不等式/降维打击——不等式中的黑魔法/降维打击——不等式中的黑魔法.md",
-    "数学/初等/题库/T20220910-9.md",
-    "数学/初等/题库/T20230107-1.md",
-    "数学/初等/题库/T20220910-7.md",
-    "数学/初等/题库/T20220910-8.md",
-    "数学/初等/题库/T20220910-6.md",
-    "数学/初等/题库/T20220910-2.md",
-    "数学/初等/题库/T20220910-5.md",
-    "数学/初等/题库/T20220910-4.md",
-    "数学/初等/题库/T20220910-3.md",
-    "数学/初等/题库/T20220910-10.md",
-    "数学/初等/题库/T20220910-1.md",
-    "数学/初等/题库/T20220814-3.md",
-    "数学/初等/题库/T20220814-2.md",
-    "数学/初等/题库/T20220814-1.md",
-    "数学/初等/题库/T20220718-2.md",
-    "数学/初等/题库/T20220718-1.md",
-    "数学/初等/题库/T20220717-7.md",
-    "数学/初等/题库/T20220717-6.md",
-    "数学/初等/题库/T20220717-5.md",
-    "数学/初等/题库/T20220717-4.md",
-    "数学/初等/题库/T20220717-3.md",
-    "数学/初等/题库/T20220717-2.md",
-    "数学/初等/题库/T20220717-1.png",
-    "数学/初等/题库/T20220717-1.md",
-    "数学/初等/不等式/降维打击——不等式中的黑魔法",
-    "数学/初等/一元三次方程求根/一元三次方程求根公式.png",
-    "数学/初等/三角函数/同频正弦函数求和.gsp",
-    "数学/初等/题库",
-    "数学/初等/难题",
-    "数学/初等/数形结合",
-    "数学/初等/换元",
-    "数学/初等/初等数列",
-    "数学/初等/不等式",
-    "数学/初等/一元三次方程求根",
-    "数学/初等/三角函数",
-    "数学/信号与系统/离散傅里叶变换性质.png",
-    "数学/信号与系统/常见离散傅里叶变换.png",
-    "数学/信号与系统/周期信号傅里叶级数性质-连续.png",
-    "数学/信号与系统/常见傅里叶变换.png",
-    "数学/信号与系统/傅里叶变换性质.png",
-    "数学/信号与系统/周期信号傅里叶级数性质-离散.png",
-    "zignore/A.png",
+    "嵌入式开发/笔记.md",
+    "嵌入式开发/stm32 基础.md",
+    "2025年暑假日记.md",
+    "嵌入式开发/学习路线.md",
+    "嵌入式开发/GPIO端口配置表.png",
+    "嵌入式开发/cortexM3 & stm32 中断.md",
+    "嵌入式开发/stm32f1时钟树.png",
+    "嵌入式开发/Arm_CortexM3内存映射机制.png",
+    "嵌入式开发/chatgpt对嵌入式开发的建议.png",
+    "嵌入式开发/exc_return位段解释.png",
+    "嵌入式开发/cortexM3 指令集简介(MDK编译器).md",
+    "嵌入式开发/fault_table.png",
+    "嵌入式开发/stm32f1核心架构.png",
+    "嵌入式开发/stm32存储器映射详细结构.png",
+    "嵌入式开发/mdk5_structure.png",
+    "嵌入式开发/stm32存储器映射结构.png",
+    "嵌入式开发/未确认 71496.crdownload",
+    "嵌入式开发/未确认 984688.crdownload",
+    "嵌入式开发/未确认 667297.crdownload",
+    "嵌入式开发/未确认 566549.crdownload",
+    "学习要怎样.md",
+    "zignore/穿搭/穿搭.md",
+    "zignore/燃AI绘画微微之火，助文化建设燎原.md",
+    "毛泽东思想浅析AI绘画对文创产业带来的机遇与挑战.md",
+    "信息技术/python/文件操作.md",
+    "zignore/傅里叶变换应用——Jpeg压缩原理.md",
+    "zignore/穿搭.md",
+    "zignore/穿搭",
+    "zignore/新建文件夹",
+    "zignore/穿搭.txt",
+    "zignore/新建 文本文档.txt",
+    "深度学习与神经网络/Pytorch/PyTorch的基本使用.md",
+    "深度学习与神经网络/神经网络与深度学习实践.md",
+    "深度学习与神经网络/计算机视觉/计算机视觉.md",
+    "zignore/r.md",
+    "信息技术/python/OpenCV.md",
+    "zignore/rr.md",
+    "数学/数值算法/插值.md",
+    "数学/数值算法/数值积分.md",
+    "数学/数值算法/拟合.md",
+    "数学/数值算法/矩阵.md",
+    "信息技术/Unity/Unity.md",
+    "数学/信号与系统/傅里叶变换.md",
+    "信息技术/Unity/mono结构.webp.crdownload",
+    "信息技术/Unity",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
