@@ -32,7 +32,6 @@
 4. BSRR 或 BRR 来置位、复位每一位
 ![[GPIO端口配置表.png]]
 - GPIO 做 USART 的 RX 时，模式是“浮空输入”，TX 时模式是“复用推挽”
-- 
 ### AFIO
 1. 在 RCC->APB2ENR 开启 AFIO 时钟和 GPIO 时钟
 2. 事件控制寄存器 AFIO->EVCR

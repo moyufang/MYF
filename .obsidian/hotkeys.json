@@ -16,14 +16,6 @@
     }
   ],
   "markdown:toggle-preview": [],
-  "obsidian-git:pull": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
   "obsidian-git:push": [
     {
       "modifiers": [
@@ -39,6 +31,16 @@
         "Mod"
       ],
       "key": "G"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ]
 }
