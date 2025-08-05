@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a734cd6071bfe65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式开发/学习路线.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "学习路线"
-            }
-          },
-          {
-            "id": "eb5f95a47dfd2f80",
+            "id": "3f72fdb5da8c03c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,21 +22,33 @@
             }
           },
           {
-            "id": "7be53ebe7303f3c3",
+            "id": "9a734cd6071bfe65",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "嵌入式开发/stm32f1核心架构.png"
+              },
+              "icon": "lucide-image",
+              "title": "stm32f1核心架构"
+            }
+          },
+          {
+            "id": "ecb69515c5584977",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式开发/stm32 基础.md",
+                "file": "信息技术/linux/Git Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stm32 基础"
+              "title": "Git Note"
             }
           },
           {
-            "id": "f546bdb1a2a42556",
+            "id": "2aaae48c07e3ef35",
             "type": "leaf",
             "state": {
               "type": "image",
@@ -61,8 +59,7 @@
               "title": "stm32f1时钟树"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,25 +228,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb5f95a47dfd2f80",
+  "active": "3f72fdb5da8c03c7",
   "lastOpenFiles": [
-    "嵌入式开发/stm32 基础.md",
-    "嵌入式开发/cortexM3 & stm32 中断.md",
-    "嵌入式开发/笔记.md",
+    "嵌入式开发/ADC_SMPR1.png",
+    "嵌入式开发/ADC_CR2_JEXTSEL.png",
+    "信息技术/linux/Git Note.md",
     "嵌入式开发/stm32 外设.md",
+    "嵌入式开发/stm32f1时钟树.png",
+    "嵌入式开发/stm32f1核心架构.png",
+    "嵌入式开发/stm32 基础.md",
+    "嵌入式开发/笔记.md",
+    "嵌入式开发/stm32 TIM 时钟.md",
+    "嵌入式开发/TIMx_CR2_MMS.png",
+    "嵌入式开发/TIMx_SMCR_ECE.png",
+    "嵌入式开发/TIMx_SMCR_TS+SMS.png",
+    "2025年暑假日记.md",
+    "嵌入式开发/某飞控实习岗位招聘需求.jpg",
+    "嵌入式开发/学习路线.md",
+    "SD/SD基础.md",
+    "SD",
+    "嵌入式开发/cortexM3 & stm32 中断.md",
     "嵌入式开发/通用寄存器框架图.png",
     "嵌入式开发/TIMx_CCMRx_ICxM.png",
-    "嵌入式开发/stm32f1时钟树.png",
-    "2025年暑假日记.md",
     "嵌入式开发/TIMx_CCMRx_ICxF.png",
-    "嵌入式开发/TIMx_CCMRx_OCxM.png",
-    "嵌入式开发/外部时钟做TIM_CK_SRC.png",
-    "嵌入式开发/学习路线.md",
-    "嵌入式开发/stm32f1核心架构.png",
-    "信息技术/linux/Git Note.md",
-    "嵌入式开发/GPIO端口配置表.png",
-    "嵌入式开发/Arm_CortexM3内存映射机制.png",
-    "嵌入式开发/chatgpt对嵌入式开发的建议.png",
     "嵌入式开发/cortexM3 指令集简介(MDK编译器).md",
     "嵌入式开发/未确认 71496.crdownload",
     "嵌入式开发/未确认 984688.crdownload",
@@ -274,10 +275,7 @@
     "zignore/rr.md",
     "数学/数值算法/插值.md",
     "数学/数值算法/数值积分.md",
-    "数学/数值算法/拟合.md",
-    "数学/数值算法/矩阵.md",
     "信息技术/Unity/mono结构.webp.crdownload",
-    "信息技术/Unity",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
