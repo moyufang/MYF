@@ -23,6 +23,10 @@ function get_admin_user():User{
 	//...
 }
 
+function myFunction(callback: (arg1: string, arg2: number) => boolean) {
+	//...
+}
+
 ```
 
 ##### 组合类型

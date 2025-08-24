@@ -15,6 +15,7 @@ git commit -m "Messages"
 git status
 git diff <filename>
 git restore <filename>
+git restore --source=<hash> <filename> //将某个文件回退到某一版本
 
 git log --pretty=oneline
 git reflog //git指令序列的简要日志
@@ -35,7 +36,6 @@ git stash apply [stash@{<number>}] //将栈指定的文件包恢复，不指定�
 git stash drop [stash@{<number>}] //在栈中删除指定包，默认栈顶
 git stash pop [stash@{<number>}] //相当于 apply+drop，从栈中弹出指定文件包，不指定则弹出栈顶的包
 
-git restore -s
 ```
 
 ### 远程仓库

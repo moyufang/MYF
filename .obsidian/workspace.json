@@ -8,58 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3f72fdb5da8c03c7",
+            "id": "971cfd387a93d226",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式开发/stm32 外设.md",
+                "file": "信息技术/前端/scss.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stm32 外设"
+              "title": "scss"
             }
           },
           {
-            "id": "9a734cd6071bfe65",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "嵌入式开发/stm32f1核心架构.png"
-              },
-              "icon": "lucide-image",
-              "title": "stm32f1核心架构"
-            }
-          },
-          {
-            "id": "ecb69515c5584977",
+            "id": "a8cdedc35116bd10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息技术/linux/Git Note.md",
+                "file": "信息技术/前端/Typescript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Note"
+              "title": "Typescript"
             }
           },
           {
-            "id": "2aaae48c07e3ef35",
+            "id": "116fe0aede6e7906",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "嵌入式开发/stm32f1时钟树.png"
+                "file": "信息技术/前端/DEEDMW log.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "stm32f1时钟树"
+              "icon": "lucide-file",
+              "title": "DEEDMW log"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,6 +210,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -228,54 +220,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f72fdb5da8c03c7",
+  "active": "116fe0aede6e7906",
   "lastOpenFiles": [
-    "嵌入式开发/ADC_SMPR1.png",
-    "嵌入式开发/ADC_CR2_JEXTSEL.png",
-    "信息技术/linux/Git Note.md",
-    "嵌入式开发/stm32 外设.md",
-    "嵌入式开发/stm32f1时钟树.png",
-    "嵌入式开发/stm32f1核心架构.png",
-    "嵌入式开发/stm32 基础.md",
-    "嵌入式开发/笔记.md",
-    "嵌入式开发/stm32 TIM 时钟.md",
-    "嵌入式开发/TIMx_CR2_MMS.png",
-    "嵌入式开发/TIMx_SMCR_ECE.png",
-    "嵌入式开发/TIMx_SMCR_TS+SMS.png",
+    "信息技术/前端/Typescript.md",
+    "信息技术/前端/DEEDMW log.md",
+    "信息技术/前端/JavaScript.md",
+    "信息技术/前端/scss.md",
+    "信息技术/前端/SelfBlog.md",
+    "信息技术/前端/Vue.md",
+    "信息技术/前端/Html5&CSS&JavaScript.md",
+    "信息技术/前端/Untitled",
+    "信息技术/前端/布局.md",
+    "信息技术/前端/html_box.png",
+    "信息技术/前端/flask.md",
+    "嵌入式开发/stm32 通信.md",
     "2025年暑假日记.md",
-    "嵌入式开发/某飞控实习岗位招聘需求.jpg",
-    "嵌入式开发/学习路线.md",
-    "SD/SD基础.md",
-    "SD",
+    "数学/抽象代数/魔方.md",
+    "数学/抽象代数/四元数.md",
+    "数学/抽象代数/群环域.md",
+    "嵌入式开发/笔记.md",
+    "时间管理.md",
+    "嵌入式开发/stm32 外设.md",
     "嵌入式开发/cortexM3 & stm32 中断.md",
-    "嵌入式开发/通用寄存器框架图.png",
-    "嵌入式开发/TIMx_CCMRx_ICxM.png",
-    "嵌入式开发/TIMx_CCMRx_ICxF.png",
-    "嵌入式开发/cortexM3 指令集简介(MDK编译器).md",
+    "信息技术/linux/Git Note.md",
+    "嵌入式开发/stm32 基础.md",
+    "嵌入式开发/stm32_image/stm32存储器映射详细结构.png",
+    "嵌入式开发/stm32_image/stm32f1时钟树.png",
+    "数学/抽象代数/群论.md",
+    "数学/复变函数/复变函数.md",
+    "数学/抽象代数",
+    "嵌入式开发/stm32 TIM 时钟.md",
+    "数学/解析几何/圆锥曲线/双曲函数.md",
+    "数学/生成函数/生成函数的数学基础.md",
+    "数学/信号与系统/周期信号傅里叶级数性质-连续.png",
+    "数学/信号与系统/周期信号傅里叶级数性质-离散.png",
+    "数学/信号与系统/离散傅里叶变换性质.png",
+    "数学/信号与系统/傅里叶变换性质.png",
+    "数学/信号与系统/常见离散傅里叶变换.png",
+    "数学/信号与系统/常见傅里叶变换.png",
+    "嵌入式开发/stm32_image/USART_mode.png",
+    "嵌入式开发/stm32_image",
+    "A.txt",
+    "新建 文本文档.txt",
+    "SD",
     "嵌入式开发/未确认 71496.crdownload",
     "嵌入式开发/未确认 984688.crdownload",
     "嵌入式开发/未确认 667297.crdownload",
     "嵌入式开发/未确认 566549.crdownload",
-    "学习要怎样.md",
-    "zignore/穿搭/穿搭.md",
-    "zignore/燃AI绘画微微之火，助文化建设燎原.md",
-    "毛泽东思想浅析AI绘画对文创产业带来的机遇与挑战.md",
-    "信息技术/python/文件操作.md",
-    "zignore/傅里叶变换应用——Jpeg压缩原理.md",
-    "zignore/穿搭.md",
-    "zignore/穿搭",
-    "zignore/新建文件夹",
-    "zignore/穿搭.txt",
-    "zignore/新建 文本文档.txt",
-    "深度学习与神经网络/Pytorch/PyTorch的基本使用.md",
-    "深度学习与神经网络/神经网络与深度学习实践.md",
-    "深度学习与神经网络/计算机视觉/计算机视觉.md",
-    "zignore/r.md",
-    "信息技术/python/OpenCV.md",
-    "zignore/rr.md",
-    "数学/数值算法/插值.md",
-    "数学/数值算法/数值积分.md",
-    "信息技术/Unity/mono结构.webp.crdownload",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
