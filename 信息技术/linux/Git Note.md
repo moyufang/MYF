@@ -49,6 +49,11 @@ git remote rm <respo_name> //取消连接，远程仓库并未被删除
 
 git push -d <respo_name> <branch_name> //在远程仓库中删除 <branch_name> 分支
 
+# 第一次将本地仓库推送到远程仓库
+git remote add origin https://github.com/MoYuFang/AutoBangDream.git
+git branch -M main
+git push -u origin main
+
 ```
 
 ### git 配置代理
@@ -61,3 +66,5 @@ git config --global -l //显示所有设置
 git config --global http.proxy 127.0.0.1:10809  
 git config --global https.proxy 127.0.0.1:10809
 ```
+
+
