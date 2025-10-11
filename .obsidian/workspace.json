@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b1b3811f5f8fb7b7",
+        "id": "99a0f6d6579647e2",
         "type": "tabs",
         "children": [
           {
-            "id": "cacc447c20f6e870",
+            "id": "afe7f0e064f72f78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "信息技术/数据库/数据库.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "数据库"
-            }
-          },
-          {
-            "id": "191fe7a575e140af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,54 +187,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "191fe7a575e140af",
+  "active": "afe7f0e064f72f78",
   "lastOpenFiles": [
-    "信息技术/数据库/数据库.md",
-    "conflict-files-obsidian-git.md",
-    "AutoBangDreamNote.md",
     "信息技术/数据库/SQL语法.md",
-    "信息技术/数据库/Untitled",
-    "Untitled.md",
-    "信息技术/Android模拟器开发设想.md",
     "信息技术/python/pythong工程化语法.md",
-    "信息技术/python/装饰器实现函数注册.md",
-    "信息技术/网络/计算机网络.md",
     "信息技术/linux/libevdev.md",
-    "信息技术/python/OpenCV.md",
-    "信息技术/python/vscode中解决python的导入问题（支持命令行或CodeRuner运行）.md",
-    "信息技术/python/PC 端截屏.md",
-    "信息技术/python/MORPH_TYPE.png",
-    "信息技术/网络/wireshark.md",
-    "信息技术/数据库",
-    "时间管理.md",
-    "数学/抽象代数/魔方.md",
-    "数学/抽象代数/四元数.md",
-    "数学/抽象代数/群环域.md",
-    "数学/抽象代数",
-    "嵌入式开发/stm32_image/通用寄存器框架图.png",
-    "嵌入式开发/stm32_image/USART_mode.png",
-    "嵌入式开发/stm32_image/外部时钟做TIM_CK_SRC.png",
-    "嵌入式开发/stm32_image/TIMx_SMCR_ECE.png",
-    "嵌入式开发/stm32_image/TIMx_SMCR_TS+SMS.png",
-    "嵌入式开发/stm32_image/TIMx_CR2_MMS.png",
-    "嵌入式开发/stm32_image/TIMx_CCMRx_OCxM.png",
-    "嵌入式开发/stm32_image/TIMx_CCMRx_ICxM.png",
-    "嵌入式开发/stm32_image/TIMx_CCMRx_ICxF.png",
-    "嵌入式开发/stm32_image",
-    "嵌入式开发/stm32 通信.md",
-    "嵌入式开发/stm32 TIM 时钟.md",
+    "信息技术/Android模拟器开发设想.md",
+    "conflict-files-obsidian-git.md",
     "信息技术/前端/scss.md",
-    "信息技术/前端/DEEDMW log.md",
-    "嵌入式开发/stm32 外设.md",
+    "信息技术/数据库/数据库.md",
+    "学习要怎样.md",
+    "信息技术/网络/计算机网络.md",
+    "信息技术/网络/wireshark.md",
     "信息技术/网络",
-    "Untitled",
-    "嵌入式开发/学习路线.md",
-    "嵌入式开发/stm32 基础.md",
-    "嵌入式开发/cortexM3 & stm32 中断.md",
+    "信息技术/数据库",
+    "信息技术/linux/Git Note.md",
+    "README.md",
+    "AutoBangDreamNote.md",
+    "信息技术/python/PC 端截屏.md",
+    "信息技术/python/PyAutoGui.md",
+    "信息技术/python/OpenCV.md",
+    "信息技术/前端/Typescript.md",
+    "信息技术/python/vscode中解决python的导入问题（支持命令行或CodeRuner运行）.md",
+    "信息技术/前端/DEEDMW log.md",
+    "信息技术/前端/JavaScript.md",
+    "信息技术/前端/SelfBlog.md",
+    "信息技术/前端/Vue.md",
+    "信息技术/前端/Html5&CSS&JavaScript.md",
+    "信息技术/前端/Untitled",
+    "信息技术/前端/布局.md",
+    "信息技术/前端/html_box.png",
+    "信息技术/前端/flask.md",
+    "嵌入式开发/stm32 通信.md",
+    "嵌入式开发/stm32_image/stm32存储器映射详细结构.png",
+    "嵌入式开发/stm32_image/stm32f1时钟树.png",
+    "数学/抽象代数",
+    "数学/信号与系统/周期信号傅里叶级数性质-连续.png",
+    "数学/信号与系统/周期信号傅里叶级数性质-离散.png",
+    "数学/信号与系统/离散傅里叶变换性质.png",
+    "数学/信号与系统/傅里叶变换性质.png",
+    "数学/信号与系统/常见离散傅里叶变换.png",
+    "数学/信号与系统/常见傅里叶变换.png",
+    "嵌入式开发/stm32_image/USART_mode.png",
+    "嵌入式开发/stm32_image",
+    "A.txt",
+    "新建 文本文档.txt",
+    "SD",
     "嵌入式开发/未确认 71496.crdownload",
     "嵌入式开发/未确认 984688.crdownload",
-    "嵌入式开发/未确认 667297.crdownload",
-    "嵌入式开发/未确认 566549.crdownload",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
