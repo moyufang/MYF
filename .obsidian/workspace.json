@@ -11,10 +11,14 @@
             "id": "afe7f0e064f72f78",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "信息技术/linux/Git Note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Git Note"
             }
           }
         ]
@@ -189,19 +193,25 @@
   },
   "active": "afe7f0e064f72f78",
   "lastOpenFiles": [
+    "信息技术/前端/vue+ts+scss+vite+router+pinia+mock.md",
+    "信息技术/linux/Git Note.md",
+    "信息技术/前端/SelfBlog.md",
+    "信息技术/前端/scss.md",
+    "信息技术/前端/JavaScript.md",
+    "信息技术/前端/html_box.png",
+    "信息技术/前端/DEEDMW log.md",
+    "信息技术/前端/flask.md",
     "信息技术/数据库/SQL语法.md",
     "信息技术/python/pythong工程化语法.md",
     "信息技术/linux/libevdev.md",
     "信息技术/Android模拟器开发设想.md",
     "conflict-files-obsidian-git.md",
-    "信息技术/前端/scss.md",
     "信息技术/数据库/数据库.md",
     "学习要怎样.md",
     "信息技术/网络/计算机网络.md",
     "信息技术/网络/wireshark.md",
     "信息技术/网络",
     "信息技术/数据库",
-    "信息技术/linux/Git Note.md",
     "README.md",
     "AutoBangDreamNote.md",
     "信息技术/python/PC 端截屏.md",
@@ -209,16 +219,9 @@
     "信息技术/python/OpenCV.md",
     "信息技术/前端/Typescript.md",
     "信息技术/python/vscode中解决python的导入问题（支持命令行或CodeRuner运行）.md",
-    "信息技术/前端/DEEDMW log.md",
-    "信息技术/前端/JavaScript.md",
-    "信息技术/前端/SelfBlog.md",
-    "信息技术/前端/Vue.md",
     "信息技术/前端/Html5&CSS&JavaScript.md",
     "信息技术/前端/Untitled",
     "信息技术/前端/布局.md",
-    "信息技术/前端/html_box.png",
-    "信息技术/前端/flask.md",
-    "嵌入式开发/stm32 通信.md",
     "嵌入式开发/stm32_image/stm32存储器映射详细结构.png",
     "嵌入式开发/stm32_image/stm32f1时钟树.png",
     "数学/抽象代数",
