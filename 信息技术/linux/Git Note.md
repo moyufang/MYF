@@ -23,6 +23,8 @@ git reset <hash> //版本回退
 git reset --soft <hash> //版本回退，但不改变工作区
 git diff <hash> <hash> //分析两个版本的差异
 
+// HEAD@{1} 可以代替 hash，数字代表上多少个版本
+
 git checkout -- <filename> //用版本库里的文件替换工作区中的文件
 git branch <name> //创建分支；去掉<name>查看所有分支
 git branch -d <name> //删除分支
@@ -67,4 +69,7 @@ git config --global http.proxy 127.0.0.1:10809
 git config --global https.proxy 127.0.0.1:10809
 ```
 
+### 技巧
+
+根据gitignore忽略省略的文件夹，然后输出剩余所有的文件结构
 

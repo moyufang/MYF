@@ -8,15 +8,31 @@
 
 创建项目
 ```cmd
->npm create vite@latest my_vue_project
->cd my_vue_project
-my_vue_project>npm install
+npm create vue@latest my-ui -- --typescript --router --pinia
+cd my-ui
+npm install sass axios mockjs
+npm install -D @types/mockjs
 ```
 运行项目
 ```cmd
 my_vue_project>npm run dev
 ```
-
+项目结构
+```
+src/
+├── components/           # 通用组件
+│   ├── base/            # 基础UI组件
+│   ├── layout/          # 布局组件
+│   └── modules/         # 模块专用组件
+├── views/               # 页面级组件（各模块）
+├── stores/              # Pinia状态管理
+├── services/            # API服务层
+│   ├── api/             # 真实后端API
+│   └── mock/            # Mock服务
+├── types/               # TypeScript类型定义
+├── utils/               # 工具函数
+└── assets/              # 静态资源
+```
 ##### 项目部署
 
 详见 [生产环境部署指南](https://cn.vuejs.org/guide/best-practices/production-deployment.html)
@@ -24,6 +40,7 @@ my_vue_project>npm run dev
 my_vue_project>npm run build
 ```
 
+### 后端模拟工具(mock)
 ### 响应式
 
 ### Vue 组件
