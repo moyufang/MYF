@@ -145,12 +145,13 @@ CREATE TABLE employees (
 
 SELECT语句基本结构
 ```sql
-SELECT [DISTINCT] column1, column2, ...
-FROM table_name
+SELECT [DISTINCT|ALL] column1, column2, ...
+FROM table1_name, table2_name, ...
 [WHERE condition]
 [ORDER BY column1 [ASC|DESC], ...]
 [LIMIT number];
 ```
+去掉 WHERE，则多表查询的产生的是笛卡尔积元组。
 
 选择特定列
 ```sql
@@ -236,6 +237,16 @@ WHERE phone IS NULL;
 
 SELECT * FROM employees
 WHERE phone IS NOT NULL;
+```
+
+### 交并差
+
+```sql
+SELECT column1, column2 FROM table1
+UNION [ALL] --加ALL代表不去重
+SELECT column1, column2 FROM table2;
+
+-- UNITON 并, INTERSECT 交, EXCEPT 差
 ```
 
 ### 聚合函数
@@ -350,6 +361,45 @@ SELECT * FROM employees
 LIMIT 20, 10;  -- MySQL语法：从第20行开始取10行
 ```
 
+### 嵌套查询
+
+
+```sql
+-- IN & NOT IN运算符
+WHERE 列名 IN (子查询)
+WHERE 列名 NOT IN (子查询)
+
+-- ANY & ALL, 判断是否全部满足或者满足任意一个
+WHERE 列名 > ALL (子查询)
+WHERE 列名 > ANY (子查询)
+
+-- EXISTS & NOT EXISTS, 判断子查询中是否非空
+WHERE [NOT] EXISTS (子查询)
+
+-- UNIQUE & NOT UNIQUE, 判断子查询中是否有重复元素
+WHERE [NOT] UNIQUE (子查询)
+
+-- FROM 里嵌套
+SELECT max(tot_salary)
+FROM (
+	SELECT dep_name, SUM(salary)
+	FROM instructor
+	GROUP BY dep_name
+) AS dep_sal(dep_name, tot_salary); -- 注意, AS 是对子查询而非父查询的别名
+
+-- WITH, 对临时查询进行重命名，可读性强于子查询
+WITH dep_sal(dep_name, tot_salary) AS(
+	SELECT dep_name, SUM(salary)
+	FROM instructor
+	GROUP BY dep_name
+)
+SELECT max(tot_salary)
+FROM dep_sal;
+
+-- 标量子查询, 只返回一个元组的查询
+-- 标量子查询可以出现在 SELECT WHERE 和 HAVING 中
+
+```
 
 ### 完整的学生管理系统示例
 ```sql

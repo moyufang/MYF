@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b1b3811f5f8fb7b7",
+        "id": "7a710f46383af7a5",
         "type": "tabs",
         "children": [
           {
-            "id": "cacc447c20f6e870",
+            "id": "a4a5d5f876aba765",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "信息技术/数据库/数据库.md",
+                "file": "信息技术/数据库/SQL语法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据库"
-            }
-          },
-          {
-            "id": "191fe7a575e140af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "SQL语法"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,8 +167,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -202,16 +187,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false,
-      "obsidian-git:Open Git source control": false
+      "templates:Insert template": false
     }
   },
-  "active": "191fe7a575e140af",
+  "active": "a4a5d5f876aba765",
   "lastOpenFiles": [
-    "信息技术/数据库/数据库.md",
-    "conflict-files-obsidian-git.md",
     "AutoBangDreamNote.md",
     "信息技术/数据库/SQL语法.md",
+    "信息技术/数据库/数据库.md",
+    "conflict-files-obsidian-git.md",
     "信息技术/数据库/Untitled",
     "Untitled.md",
     "信息技术/Android模拟器开发设想.md",
