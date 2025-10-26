@@ -314,6 +314,22 @@ WHERE dept_id = 10;
 UPDATE employees
 SET salary = 8000.00, dept_id = 30
 WHERE emp_id = 1;
+
+-- 条件更新
+UPDATE book 
+SET interview_times = 
+    CASE 
+        WHEN book_id = 'b0001' THEN 38
+        WHEN book_id = 'b0002' THEN 15
+        WHEN book_id = 'b0003' THEN 60
+        WHEN book_id = 'b0004' THEN 32
+        WHEN book_id = 'b0005' THEN 29
+        WHEN book_id = 'b0006' THEN 5
+        WHEN book_id = 'b0007' THEN 48
+        WHEN book_id = 'b0008' THEN 17
+    END
+WHERE book_id IN ('b0001', 'b0002', 'b0003', 'b0004', 'b0005', 'b0006', 'b0007', 'b0008');
+SELECT book_name,interview_times from book;
 ```
 
 删除数据（DELETE）
@@ -401,38 +417,4 @@ FROM dep_sal;
 
 ```
 
-### 完整的学生管理系统示例
-```sql
--- 创建数据库
-CREATE DATABASE school_management;
-USE school_management;
-
--- 创建学生表
-CREATE TABLE students (
-    student_id INT PRIMARY KEY,
-    student_name VARCHAR(50) NOT NULL,
-    gender CHAR(1) CHECK (gender IN ('M', 'F')),
-    birth_date DATE,
-    major VARCHAR(100),
-    enrollment_date DATE DEFAULT CURRENT_DATE
-);
-
--- 创建课程表
-CREATE TABLE courses (
-    course_id INT PRIMARY KEY,
-    course_name VARCHAR(100) NOT NULL,
-    credits INT CHECK (credits > 0),
-    instructor VARCHAR(50)
-);
-
--- 插入数据
-INSERT INTO students VALUES
-(1, '张三', 'M', '2000-05-15', '计算机科学', '2020-09-01'),
-(2, '李四', 'F', '2001-02-20', '软件工程', '2020-09-01'),
-(3, '王五', 'M', '1999-11-08', '数据科学', '2019-09-01');
-
--- 基础查询练习
-SELECT * FROM students WHERE gender = 'M';
-SELECT student_name, major FROM students ORDER BY enrollment_date DESC;
-SELECT COUNT(*) AS total_students FROM students;
-```
+## 视图
