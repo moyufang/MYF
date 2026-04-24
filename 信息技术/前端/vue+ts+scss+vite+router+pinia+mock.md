@@ -8,7 +8,7 @@
 
 创建项目
 ```cmd
-npm create vue@latest my-ui -- --typescript --router --pinia
+npm create vue@latest my-ui -y --typescript --router --pinia
 cd my-ui
 npm install sass axios mockjs
 npm install -D @types/mockjs
@@ -32,6 +32,23 @@ src/
 ├── types/               # TypeScript类型定义
 ├── utils/               # 工具函数
 └── assets/              # 静态资源
+```
+
+scss 的配置
+
+vite.config.js
+```js
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "./src/styles/variables.scss";'
+      }
+    }
+  }
+})
 ```
 ##### 项目部署
 

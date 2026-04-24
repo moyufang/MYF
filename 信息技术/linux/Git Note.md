@@ -31,6 +31,11 @@ git branch -d <name> //删除分支
 git checkout -b <name> //创建新分支并切换
 git switch -c <name> //创建并切换到新分支，删掉 -c 则是创建
 
+// 合并时使用 rebase 保持线性历史
+git rebase main
+git checkout main
+git merge --ff-only <branch_name>
+
 git stash //将工作区与缓存区的文件打包入栈，缓存起来（已消失）
 git stash list //显示缓存的包
 
@@ -67,6 +72,40 @@ git config --global -l //显示所有设置
 //给git设置代理
 git config --global http.proxy 127.0.0.1:10809  
 git config --global https.proxy 127.0.0.1:10809
+```
+
+### Tag
+
+Git Tag 的核心意义是**为特定的提交创建一个永久性的、有意义的引用标记**，通常用于重要commit。
+
+```
+//-a 指定创建附注标签
+git tag -a v1.4.0 -m "message" //在当前提交上打标签
+git tag -a v1.3.1 <commit-hash> -m "message" //在特定提交上打标签
+
+git tag -d v1.0.0-beta //删除本地标签
+
+git checkout -b hotfix v1.3.0 //基于tag v1.3.0 创建新分支
+
+git tag // 简单列表
+git tag -l "v1.*"
+git tag -l --sort=-version:refname "v*" //按版本号语义化排序（非常实用！）
+git show v1.4.0 //显示标签信息及其指向的提交
+
+//远程
+git push origin v1.4.0 //推送单个标签到远程
+git push origin --tags //推送所有本地尚未在远程的标签
+git push origin --delete v1.0.0-beta //删除远程标签
+
+```
+
+### Git Message
+```
+
+git config commit.template .gitmessage // 为当前项目配置
+git config --global commit.template ~/.gitmessage //全局配置
+
+
 ```
 
 ### 技巧

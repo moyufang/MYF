@@ -82,5 +82,6 @@ kill; pkill
 ```
 alias			//对命令起别名
 readlink -f 	//找到软连接的最终文件
+.               //等同于 source，用于加载资源
 ```
 

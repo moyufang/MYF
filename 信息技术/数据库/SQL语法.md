@@ -1,4 +1,4 @@
-SQL语言分类
+ SQL语言分类
 ```sql
 -- 数据定义语言（DDL）
 CREATE, ALTER, DROP
